@@ -1,11 +1,12 @@
-import React, { useState} from 'react';
-import './App.css';
+import React from 'react';
 
 import UserList from './components/user-list'
 
+import './App.css';
+
 function App() {
   return (
-    <div>
+    <div className="app">
       <h1>Typescript User Searcher</h1>
 
       <UserList />

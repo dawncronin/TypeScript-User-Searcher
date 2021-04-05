@@ -4,15 +4,16 @@ import Input from './input'
 import Select from './select'
 
 interface Props {
-    onSearch: (s: string) => void
+    onSearch: (s: string) => void,
+    onSort: (s: string) => void
 }
 
-const Search = ({ onSearch }: Props) => {
+const Search = ({ onSearch, onSort }: Props) => {
     return (
         <div>
             <form>
                 <Input onSearch={onSearch}/>
-                <Select />
+                <Select onSort={onSort}/>
             </form>
         </div>
     )

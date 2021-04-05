@@ -12,7 +12,7 @@ interface Props {
 
 const UserCard = ({ user }: Props) => {
     return (
-        <div>
+        <div className="user-card">
             <img src={user.avatar} />
             <h3>{user.first_name} {user.last_name}</h3>
             <h4>{user.email}</h4>

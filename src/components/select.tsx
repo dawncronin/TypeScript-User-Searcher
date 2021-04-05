@@ -1,13 +1,17 @@
 import React from 'react'
 
+interface Props {
+    onSort: (s: string) => void
+}
 
-const Select = () => {
+const Select = ({ onSort }: Props) => {
     return (
         <div>
-            <select>
-                <option>first name</option>
-                <option>last name</option>
-                <option>id</option>
+            <select onChange={(e) => onSort(e.target.value)}>
+                <option>Sort By:</option>
+                <option>First Name</option>
+                <option>Last Name</option>
+                <option>Id</option>
             </select>
         </div>
     )
