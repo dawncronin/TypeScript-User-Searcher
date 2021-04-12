@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TypeScript-User-Searcher/static/css/main.ef07ba33.chunk.css",
+    "main.js": "/TypeScript-User-Searcher/static/js/main.579711b2.chunk.js",
+    "main.js.map": "/TypeScript-User-Searcher/static/js/main.579711b2.chunk.js.map",
+    "runtime-main.js": "/TypeScript-User-Searcher/static/js/runtime-main.f5a381a8.js",
+    "runtime-main.js.map": "/TypeScript-User-Searcher/static/js/runtime-main.f5a381a8.js.map",
+    "static/js/2.10a8d1be.chunk.js": "/TypeScript-User-Searcher/static/js/2.10a8d1be.chunk.js",
+    "static/js/2.10a8d1be.chunk.js.map": "/TypeScript-User-Searcher/static/js/2.10a8d1be.chunk.js.map",
+    "static/js/3.6da95013.chunk.js": "/TypeScript-User-Searcher/static/js/3.6da95013.chunk.js",
+    "static/js/3.6da95013.chunk.js.map": "/TypeScript-User-Searcher/static/js/3.6da95013.chunk.js.map",
+    "index.html": "/TypeScript-User-Searcher/index.html",
+    "static/css/main.ef07ba33.chunk.css.map": "/TypeScript-User-Searcher/static/css/main.ef07ba33.chunk.css.map",
+    "static/js/2.10a8d1be.chunk.js.LICENSE.txt": "/TypeScript-User-Searcher/static/js/2.10a8d1be.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5a381a8.js",
+    "static/js/2.10a8d1be.chunk.js",
+    "static/css/main.ef07ba33.chunk.css",
+    "static/js/main.579711b2.chunk.js"
+  ]
+}
