@@ -16,8 +16,6 @@ const UserList = () => {
     let defaultUserArray: User[] = []
     let [users, setUsers] = useState(defaultUserArray)
     let [sortedUsers, setSortedUsers] = useState(defaultUserArray)
-    let [search, setSearch] = useState("")
-
 
     useEffect( () => {
         fetch('https://reqres.in/api/users?per_page=20')
